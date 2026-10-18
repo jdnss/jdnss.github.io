@@ -1,29 +1,23 @@
 html {
-    font-family: sans-serif;
-    color: #eaf2e9;
-    background-color: #052405;
+    color: #E6F2E8;
+    background-color: #0A260E;
 }
 a {
-    color: #8ef93d;
+    color: #4FE568;
     text-decoration: underline;
 }
 p, h1 {
     margin: 0;
-    line-height: 1.4;
 }
 h1 {
     margin-bottom: 4px;
 }
 .container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-* html .container {
-    width: expression(document.body.clientWidth > 800 ? "800px" : "99%");
+    width: 528px;
+    margin: 24px 0px 0px 16px;
 }
 .block {
-    border: #6ba664 2px solid;
+    border: #6CAD76 2px solid;
     padding: 16px;
     margin-bottom: 8px;
 }
@@ -32,7 +26,6 @@ h1 {
     padding: 16px;
 }
 #banner {
-    width: 100%;
     margin-bottom: 8px;
     display: block;
 }

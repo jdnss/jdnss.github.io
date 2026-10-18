@@ -4,15 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <title>joadens / about me</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
+        <img id="banner" src="assets/img/logo.gif" alt="jdnss logo">
         <div class="block">
-            <span id="clock">Loading...</span>
+            <p>about me<br><a href="links.html">links</a></p>
         </div>
-        <img id="banner" src="assets/img/banner.gif" alt="jdns banner">
         <div class="block">
-            <p>about me / <a href="links.html">links</a>  •  EN / RU</p>
+            <p>EN / RU</p>
         </div>
         <div class="block">
             <h1>about me</h1>
@@ -28,34 +29,5 @@
 
         </div>
     </div>
-    <script type="text/javascript">
-        function startClock() {
-            var clockElement = document.getElementById('clock');
-
-            var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-            setInterval(function() {
-                var now = new Date();
-
-                var dayName = days[now.getDay()];
-                var monthName = months[now.getMonth()];
-
-                var dateNum = now.getDate();
-                var year = now.getFullYear();
-
-                var hours = now.getHours();
-                var minutes = now.getMinutes();
-                var seconds = now.getSeconds();
-
-                if (hours < 10) hours = "0" + hours;
-                if (minutes < 10) minutes = "0" + minutes;
-                if (seconds < 10) seconds = "0" + seconds;
-
-                clockElement.innerHTML = dayName + ", " + monthName + " " + dateNum + " " + year + ", " + hours + ":" + minutes + ":" + seconds;
-            }, 1000);
-        }
-        window.onload = startClock;
-    </script>
 </body>
 </html>
