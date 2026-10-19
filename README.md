@@ -1,4 +1,4 @@
-# jdnss.github.io
+# [jdnss.github.io](https://jdnss.github.io)
 
 > [!important]
 > САЙТ ВСË ЕЩË НА СТАДИИ РАЗРАБОТКИ (альфа). На данный момент даже содержимого нет, только заглушки.
