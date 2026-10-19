@@ -9,9 +9,9 @@ h1 {
     padding: 16px;
     margin-bottom: 8px;
 }
-/*#buttons a {*/
-/*    display: inline-block;*/
-/*}*/
+#buttons a, p {
+    display: inline-block;
+}
 #buttons img {
     border: 0;
 }
