@@ -12,22 +12,10 @@ p, h1 {
 h1 {
     margin-bottom: 4px;
 }
-.container {
-    width: 528px;
-    margin: 24px 0px 0px 16px;
-}
 .block {
     border: #6CAD76 2px solid;
     padding: 16px;
     margin-bottom: 8px;
-}
-#header {
-    text-align: center;
-    padding: 16px;
-}
-#banner {
-    margin-bottom: 8px;
-    display: block;
 }
 #buttons {
     text-align: center;
